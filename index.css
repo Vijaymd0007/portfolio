@@ -186,7 +186,7 @@ body{
 
   /* Projects */
 #projects{
-    height:100vh;
+    height:150vh;
     background-color: #ffdac6;
 }
 #projects h1{
@@ -199,14 +199,19 @@ body{
 }
 .card{
   width: 18rem;
+  border-radius: 20px;
+  margin-bottom:30px;
 }
 .card-container{
     padding:50px;
+    border-radius: 20px;
     
 display: flex;
     flex-direction: row;
     justify-content: space-around;
     position:relative;
+    flex-wrap: wrap;
+  
 }
 
 /* .card{
@@ -219,7 +224,7 @@ display: flex;
   width:300px;
   height:310px;
   transition: 0.8s ease;
-  
+   border-radius: 20px !important;
 }
 .card1 img:hover{
   /* width:300px; */
@@ -233,6 +238,7 @@ display: flex;
     border-radius: 20px;
   border:1px solid white;
     color:black;
+    border-radius: 20px !important;
     
 }
 .card1 a{
@@ -258,6 +264,7 @@ display: flex;
   width:300px;
   height:310px;
   transition: 0.8s ease;
+  border-radius: 20px !important;
   
 }
 .card2 img:hover{
@@ -272,13 +279,14 @@ display: flex;
     border-radius:10px;
     border:1px solid white;
     color:black;
+    border-radius: 20px !important;
     
 }
 .card2 a{
   text-decoration: none;
   color:black;
   margin-bottom:20px;
-   
+  border-radius: 20px !important;
     
 }
 
@@ -291,12 +299,14 @@ display: flex;
 .card2 a:hover .card-title{
   text-decoration: none;
   color:black;
+  border-radius: 20px !important;
     
 }
 .card3 img{
   width:300px;
   height:310px;
   transition: 0.8s ease;
+  border-radius: 20px;
   
 }
 .card3 img:hover{
@@ -311,12 +321,14 @@ display: flex;
     border-radius:10px;
     border:1px solid white;
     color:black;
+    border-radius: 20px !important;
     
 }
 .card3 a{
   text-decoration: none;
   color:black;
   margin-bottom:20px;
+  border-radius: 20px !important;
    
     
 }
@@ -441,7 +453,7 @@ display: flex;
 
 #footer hr{
   color:white;
-  width:30%;
+  width:40%;
 }
 
 #footer .right{
@@ -541,32 +553,6 @@ form button:hover{
   font-weight: bold;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Tablet */
   
@@ -796,7 +782,7 @@ display: flex;
 
 /* Mobile */
 
-  @media (max-width:360px) {
+  @media ( max-width:360px) {
 
   
 
