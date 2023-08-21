@@ -789,7 +789,7 @@ display: flex;
     /* Navbar */
     .navbar{
       width:100vw;
-      
+      z-index: 999;
     }
 
 
