@@ -782,13 +782,13 @@ display: flex;
 
 /* Mobile */
 
-  @media ( max-width:360px) {
+  @media ( max-width:415px) {
 
   
 
     /* Navbar */
     .navbar{
-      width:350px;
+      width:100vw;
       
     }
 
@@ -1023,7 +1023,7 @@ z-index: 20;
 
 
     #footer{
-      height:150vh;
+      height:160vh;
      padding:5px;
     }
 
