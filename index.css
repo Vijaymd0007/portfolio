@@ -358,7 +358,7 @@ display: flex;
     left:3%;
 }
 
-/* Skills */
+/* Skills  */
 #skills-section{
   height:100vh;
   background-color:#fefae0;
@@ -555,8 +555,30 @@ form button:hover{
 }
 
 /* Tablet */
-  
-  @media (max-width: 768px) {
+@media (max-width: 1390px) {
+
+  #projects{
+    height:180vh;
+    background-color: #ffdac6;
+}
+
+#skills-section img{
+  width:100px;
+  height:100px;
+}
+
+
+  #skills-section{
+    height:130vh;
+    background-color:#fefae0;
+    padding:80px;
+    position: relative;
+    
+  }
+
+
+}
+  @media (max-width: 900px) {
     .menu-toggle {
       display: flex;
     }
@@ -593,17 +615,17 @@ form button:hover{
 
 
 .right{
-  height:400px;
+  height:200px;
 }
 .Left{
-  height:400px;
+  height:200px;
   
 }
 .right img{
     width:400px;
     height:300px;
     position: absolute;
-    top:300px;
+    top:330px;
     right:70px;
     
    filter: drop-shadow(10px 10px 100px black);
@@ -664,18 +686,34 @@ body{
     flex-direction: column;
 }
 
-
-.downArrow{
-    width:50px;
-    height:50px;
-    position: relative;
-    /* bottom:10px; */
-    /* right:50%; */
-    margin-left: 50%;
-    
-    animation: mymove 5s infinite;
-
+.downArrow0{
+  width:50px;
+  height:50px;
+  position: relative;
+  /* bottom:10px; */
+  /* right:50%; */
+  margin-left: 50%;
+  margin-top:70px;
+  
+  animation: mymove1 5s infinite;
+  transform:translate(-50%, -50%);
+z-index: 20;
 }
+
+.downArrow2{
+  width:50px;
+  height:50px;
+  position: relative;
+  /* bottom:10px; */
+  /* right:50%; */
+  margin-left: 50%;
+  margin-top:90px;
+  transform:translate(-50%, -50%);
+  
+  animation: mymove 5s infinite;
+  z-index: 20;
+}
+
 @keyframes mymove {
   0%   {bottom: 100px;}
   25%  {bottom: 160px;}
@@ -695,6 +733,7 @@ body{
  
 }
 
+
 .card-container{
   padding:50px;
   
@@ -705,7 +744,18 @@ display: flex;
   gap:30px;
   position:relative;
 }
+.card1 img{
+  width:300px;
+  height:310px;
+  transition: 0.8s ease;
+   border-radius: 20px !important;
+}
+.card1 img:hover{
+  /* width:300px; */
+  height:310px;
+  opacity:0.5;
 
+}
 
 
 
@@ -714,17 +764,18 @@ display: flex;
 
 /* Skills  Tablet*/
 #skills-section{
-  height:90vh;
+  height:100vh;
   /* width:100vw; */
   padding:40px;
   position: relative;
   
 }
 
+
 .skills{
   display:flex;
   justify-content:space-evenly;
-  gap:40px;
+  gap:70px;
   flex-wrap: wrap;
   padding:20px;
 }
@@ -732,8 +783,8 @@ display: flex;
 
 
 #skills-section img{
-  width:60px;
-  height:60px;
+  width:80px;
+  height:80px;
 }
 #skills-section img:last-child{
   width:50px;
@@ -765,7 +816,8 @@ display: flex;
   position: relative;
   
   margin-left: 45%;
-  margin-top:30px;
+  margin-top:90px;
+  transform:translate(-50%, -50%);
   
   animation: mymove 5s infinite;
 
@@ -777,10 +829,18 @@ display: flex;
   100% {bottom: 20px;}
 }
 
+#footer{
+  height:100vh;
+  background-color: black;
+  padding:20px;
+  position: relative;
+}
+
 
   }
 
 /* Mobile */
+
 
   @media ( max-width:415px) {
 
@@ -788,15 +848,17 @@ display: flex;
 
     /* Navbar */
     .navbar{
-      width:100vw;
+      width:94vw;
       z-index: 999;
+      overflow-x: hidden;
     }
 
 
     /* Intro */
 
     .intro{
-      padding-left: 20px;;
+      padding-left: 20px;
+      overflow-x: hidden;
     }
 
     .Left h1{
@@ -924,7 +986,8 @@ z-index: 20;
 
 .intro{
   
-  height:93vh; background-color: #f5ebe0;
+  height:90vh; 
+  background-color: #f5ebe0;
 }
 
 
