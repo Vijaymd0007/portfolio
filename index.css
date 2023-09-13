@@ -225,6 +225,13 @@ display: flex;
   height:310px;
   transition: 0.8s ease;
    border-radius: 20px !important;
+   object-position: center;
+   object-fit: cover;
+}
+
+.blur-load{
+  background-size: cover;
+  background-position: center;
 }
 .card1 img:hover{
   /* width:300px; */
@@ -848,7 +855,7 @@ display: flex;
 
     /* Navbar */
     .navbar{
-      width:94vw;
+      width:100%;
       z-index: 999;
       overflow-x: hidden;
     }
