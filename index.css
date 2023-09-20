@@ -194,9 +194,16 @@ body{
    padding-top:70px;
    padding-bottom:30px;
    padding-left:45%;
-   
-   
-}
+
+  }
+
+/* Lazy loading */
+
+
+
+
+
+
 .card{
   width: 18rem;
   border-radius: 20px;
@@ -857,8 +864,10 @@ display: flex;
     .navbar{
       width:100%;
       z-index: 999;
-      overflow-x: hidden;
+      /* overflow-x: hidden; */
     }
+
+    
 
 
     /* Intro */

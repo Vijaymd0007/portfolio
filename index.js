@@ -2,6 +2,7 @@ const mobileMenuButton = document.getElementById('mobile-menu');
 const navList = document.getElementById('nav-list');
 
 mobileMenuButton.addEventListener('click', () => {
+  console.log('Button clicked');
   navList.classList.toggle('active');
 });
 
@@ -14,18 +15,19 @@ downloadButton.addEventListener('click', () => {
 });
 
 
-const blurDivs = document.querySelectorAll(".blur-div")
+// const blurDivs = document.querySelectorAll(".blur-load")
 
-blurDivs.forEach(div=>{
-  const img = div.querySelector("img")
+// blurDivs.forEach(div=>{
+//   const img = div.querySelector("img")
 
-  function loaded(){
+//   function loaded(){
+//     div.classList.add("loaded")
 
-  }
-  if(img.complete){
-    loaded()
-  }
-  else{
-    img.addEventListener("load",loaded)
-  }
-})
+//   }
+//   if(img.complete){
+//     loaded()
+//   }
+//   else{
+//     img.addEventListener("load",loaded)
+//   }
+// })
